@@ -1,9 +1,8 @@
-class CAÑALITA_ACTIVITY_I {
+class CAÑALITAJ_ACTIVITY_I {
     public static void main (String[] args) {
-        System.out.println ("Carlito Cañalita");
-        System.out.println(21);
+        System.out.println("Jhon Niño");
         System.out.println(19);
-        System.out.println(21+19);
-
-       }
+        System.out.println(20);
+        System.out.println(19+20);
+    }
 }
