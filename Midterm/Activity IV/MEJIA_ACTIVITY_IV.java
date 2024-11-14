@@ -7,7 +7,7 @@ public class MEJIA_ACTIVITY_IV {
             int number = sc.nextInt();
 
             if (number < 0) {
-                System.out.println("Please enter a non-negative integer.");
+                System.out.println("Not a non-negative integer.");
             } else {
 
                 int fact = 1;
