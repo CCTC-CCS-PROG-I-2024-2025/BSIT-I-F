@@ -11,7 +11,7 @@ public class UBAS_ACTIVITY_IV {
         int qout = b/c;
 
         System.out.println(sum);
-        Sytem.out.println(diff);
+        System.out.println(diff);
         System.out.println(prod);
         System.out.println(qout);
 
