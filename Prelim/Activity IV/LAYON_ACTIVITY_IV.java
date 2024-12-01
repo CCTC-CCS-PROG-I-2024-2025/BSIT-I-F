@@ -1,4 +1,4 @@
-     class LAYON_ACTIVITY_IV {
+class LAYON_ACTIVITY_IV {
    public static void main(String[] args) {
       int x = 12;
       int y = 4;
