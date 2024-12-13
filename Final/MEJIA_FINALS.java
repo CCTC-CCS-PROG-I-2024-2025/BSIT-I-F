@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MEJIA_FINALS {
+public class MEJIA_FINAL {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double totBill = 0;
