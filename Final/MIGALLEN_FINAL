@@ -1,5 +1,5 @@
 import java.util.Scanner;
- class MIGALLEN_FINAL {
+ class MIGALLEN_FINALS {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean running = true;
