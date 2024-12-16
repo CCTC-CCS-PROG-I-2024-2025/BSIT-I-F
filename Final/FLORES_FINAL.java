@@ -1,5 +1,5 @@
 import java.util.Scanner;
- class DORIA_FINAL {
+ class FLORES_FINAL {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean running = true;
