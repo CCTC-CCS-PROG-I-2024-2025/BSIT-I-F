@@ -1,14 +1,13 @@
 import java.util.Scanner;
 
 class LAYON_FINAL {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
         String customerName = "";
         int orderQuantity = 0;
         double totalPrice = 0.0;
-        int choice = 0; // Declare choice here
+        int choice = 0; 
 
         System.out.println("Welcome to Ribshack Restaurant!"); 
         System.out.println("Experience the best ribs in town!");
