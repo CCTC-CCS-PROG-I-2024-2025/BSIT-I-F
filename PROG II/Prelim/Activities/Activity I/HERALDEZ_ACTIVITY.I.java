@@ -1,4 +1,4 @@
-mport java.util.scanner;
+import java.util.scanner;
 
 class HERALDEZ_ACTIVITY_I{
     public static void main(String []args) {
