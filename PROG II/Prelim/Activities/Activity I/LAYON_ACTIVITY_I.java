@@ -1,22 +1,22 @@
 import java.util.Scanner;
-   
+
 class LAYON_ACTIVITY_I {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         String[] names = new String[5];
-        System.out.println("Enter 5 names:");
+        Scanner sc = new Scanner(System.in);
 
-        for (int i = 0; i < names.length; i++) {
-            System.out.print("Name " + (i + 1) + ": ");
+        for (int i = 0; i < 5; i++) {
+            System.out.print("Enter name " + (i + 1) + ": ");
             names[i] = sc.nextLine();
-        }  
-        System.out.println("\nChoose a number (1 to 5) to display the corresponding name:");
+        }
+
+        System.out.print("Enter a number (0-4) to display the corresponding name: ");
         int index = sc.nextInt();
 
-        if (index >= 1 && index <= 5) {
-            System.out.println("Selected name: " + names[index - 1]);
+        if (index >= 0 && index < names.length) {
+            System.out.println("The name selected is: " + names[index]);
         } else {
-            System.out.println("Invalid number. Please choose between 1 and 5.");
-        }      
+            System.out.println("Invalid number. Please enter a number between 0 and 4.");
+        }
     }
 }
