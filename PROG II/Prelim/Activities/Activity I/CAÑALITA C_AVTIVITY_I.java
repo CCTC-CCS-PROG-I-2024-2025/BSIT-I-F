@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CAÑALITA_ACTIVITY_I {
+class CAÑALITA_ACTIVITY_I {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] names = new String[5];
