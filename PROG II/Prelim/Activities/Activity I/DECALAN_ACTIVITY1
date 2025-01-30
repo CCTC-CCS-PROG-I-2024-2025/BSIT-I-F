@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class MENDOZA_ACTIVITY_I {
+class DECALAN_ACTIVITY_I {
     public static void main(String[] args) {
         String[] names = new String[5];
         Scanner sc = new Scanner(System.in);
