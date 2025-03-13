@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class HERALDEZ_ACTIVITY_1 {
+class HERALDEZ_ACTIVITY_I {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
             System.out.println("Color: ");
