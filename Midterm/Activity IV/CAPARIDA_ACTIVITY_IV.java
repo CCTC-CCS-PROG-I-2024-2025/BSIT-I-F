@@ -1,18 +1,16 @@
+import java.util.Scanner;
+
 class CAPARIDA_ACTIVITY_IV {
     public static void main(String[] args) {
-        int  a = 20;
-        int  b = 10;
-        int  c = 5;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a non-negative integer: ");
+        int number = sc.nextInt();
 
-        int  sum = a+b;
-        int  diff = a-c;
-        int prod = b*c;
-        int quot = a/c;
+        int factorial = 1;
 
-        System.out.println(sum);
-        System.out.println(diff);
-        System.out.println(prod);
-        System.out.println(quot);
-
+        for (int i = 1; i <= number; i++) {
+            factorial *= i;
+        }
+        System.out.println("The factorial of " + number + " is " + factorial);
     }
 }
